@@ -1,15 +1,34 @@
+body {
+  margin: 0px;
+}
+
 header {
   background-color:rgb(64, 64, 65);
   padding: 0px;
+  display: flex;
   text-align: center;
+  max-width: 100%;
+  justify-content: space-around;
 }
 
 .game-title {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 200px;
-  width: 300px;
-  clear: center;
-  color:rgb(237, 68, 139);
+  justify-content: space-around;
+  height: 150px;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 85px;
+  letter-spacing: 2px;
+}
+
+.game-title .name-right {
+  color: #e6e7e8;
+}
+
+.game-title .name-left {
+  color:#eD458B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
